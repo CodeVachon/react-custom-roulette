@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "declarationMap": true,
+    "declaration": true,
+    "inlineSourceMap": false,
+    "inlineSources": false
+  },
+  "extends": "./tsconfig.json",
+  "exclude": ["**/*.test.*", "**/setupTests*"]
+}

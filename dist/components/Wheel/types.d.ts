@@ -6,3 +6,4 @@ export interface StyleType {
     backgroundColor?: string;
     textColor?: string;
 }
+//# sourceMappingURL=types.d.ts.map

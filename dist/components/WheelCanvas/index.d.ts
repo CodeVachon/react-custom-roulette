@@ -19,3 +19,4 @@ interface DrawWheelProps {
 }
 declare const WheelCanvas: ({ width, height, data, outerBorderColor, outerBorderWidth, innerRadius, innerBorderColor, innerBorderWidth, radiusLineColor, radiusLineWidth, fontSize, perpendicularText, textDistance, }: WheelCanvasProps) => JSX.Element;
 export default WheelCanvas;
+//# sourceMappingURL=index.d.ts.map

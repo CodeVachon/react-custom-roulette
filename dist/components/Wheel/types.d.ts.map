@@ -1,0 +1,1 @@
+{"version":3,"file":"types.d.ts","sourceRoot":"","sources":["../../../src/components/Wheel/types.ts"],"names":[],"mappings":"AAAA,MAAM,WAAW,SAAS;IACxB,MAAM,EAAE,MAAM,CAAC;IACf,KAAK,CAAC,EAAE,SAAS,CAAC;CACnB;AAED,MAAM,WAAW,SAAS;IACxB,eAAe,CAAC,EAAE,MAAM,CAAC;IACzB,SAAS,CAAC,EAAE,MAAM,CAAC;CACpB"}

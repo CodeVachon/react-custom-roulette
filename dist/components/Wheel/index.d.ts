@@ -21,3 +21,4 @@ interface Props {
 }
 export declare const Wheel: ({ mustStartSpinning, prizeNumber, data, onStopSpinning, backgroundColors, textColors, outerBorderColor, outerBorderWidth, innerRadius, innerBorderColor, innerBorderWidth, radiusLineColor, radiusLineWidth, fontSize, perpendicularText, textDistance, spinDuration, }: Props) => JSX.Element | null;
 export {};
+//# sourceMappingURL=index.d.ts.map

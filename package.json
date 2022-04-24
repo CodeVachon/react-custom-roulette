@@ -1,6 +1,6 @@
 {
   "name": "@codevachon/react-custom-roulette",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Customizable React roulette wheel with spinning animation",
   "main": "./dist/bundle.js",
   "repository": {
@@ -54,7 +54,7 @@
   "scripts": {
     "start-server": "react-scripts start",
     "start": "webpack --watch",
-    "build": "webpack && tsc && cp -R ./src/assets ./dist",
+    "build": "rm -fr dist && webpack && tsc -p tsconfig.build.json && cp -R ./src/assets ./dist",
     "test": "react-scripts test",
     "coverage": "CI=true npm test -- --env=jsdom --coverage",
     "eject": "react-scripts eject",
