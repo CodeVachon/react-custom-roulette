@@ -1,4 +1,6 @@
-var path = require('path')
+var path = require('path');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+
 module.exports = {
   mode: 'production',
   entry: './src/index.tsx',
@@ -6,8 +8,9 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
     library: 'Wheel',
-    libraryTarget: 'umd',
+    libraryTarget: 'commonjs',
   },
+  plugins: [new CleanWebpackPlugin()],
   module: {
     rules: [
       {
@@ -50,4 +53,4 @@ module.exports = {
       root: 'ReactDOM',
     },
   },
-}
+};
