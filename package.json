@@ -1,6 +1,6 @@
 {
   "name": "@codevachon/react-custom-roulette",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Customizable React roulette wheel with spinning animation",
   "main": "./dist/bundle.js",
   "repository": {
